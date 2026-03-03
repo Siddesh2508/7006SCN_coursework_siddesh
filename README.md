@@ -1,10 +1,4 @@
-# 7006SCN_coursework_siddesh
-Predicting Arrest Outcomes Using Scalable Distributed ML on Chicago Crime Data
-#Technologies Used
+**Tableau Public Link:**  
+(https://public.tableau.com/app/profile/siddesh.gangadharappa/vizzes)
 
-- Databricks (Serverless Compute)
-- Apache Spark
-- PySpark
-- Spark MLlib
-- Scikit-learn
-- Tableau
+
