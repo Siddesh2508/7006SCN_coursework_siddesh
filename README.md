@@ -1,7 +1,7 @@
 7006SCN – Machine Learning and Big Data
 Predicting Arrest Outcomes Using Scalable Distributed ML on Chicago Crime Data
 
-Project Overview:
+##Project Overview
 
 This project implements a scalable distributed machine learning pipeline using PySpark to predict arrest outcomes from the Chicago Crime dataset (2001–Present), which exceeds 1GB in size.
 
@@ -9,7 +9,7 @@ Due to the dataset scale, a distributed Spark-based approach was used for data i
 
 The project demonstrates both machine learning performance and distributed systems optimisation.
 
-objectives:
+##objectives
 
 Implement distributed data engineering using PySpark
 
@@ -25,7 +25,7 @@ Tune shuffle partitions for performance
 
 Develop Tableau dashboards for business insights
 
-Dataset
+##Dataset
 
 Source: City of Chicago Data Portal
 Dataset: Crimes – 2001 to Present
@@ -34,7 +34,7 @@ Target Variable: Arrest
 
 Features include temporal, spatial, and categorical crime attributes.
 
-Technologies Used
+##Technologies Used
 
 Apache Spark (PySpark)
 
@@ -51,7 +51,7 @@ Tableau
 Python 3
 
 
-Models Implemented
+##Models Implemented
 
 Logistic Regression (Spark MLlib)
 
@@ -64,7 +64,7 @@ Gradient Boosting (Scikit-learn baseline)
 Primary evaluation metric: AUC (Area Under ROC Curve)
 
 
-Scalability Analysis
+##Scalability Analysis
 
 Strong Scaling (200, 400, 800 partitions)
 
@@ -75,21 +75,21 @@ Broadcast vs Normal Join comparison
 Physical execution plan analysis
 
 
-Tableau Dashboards
+##Tableau Dashboards
 
 Interactive dashboards available here:
 
 https://public.tableau.com/app/profile/siddesh.gangadharappa/vizzes
 
-GitHub Repository
+##GitHub Repository
 
 https://github.com/Siddesh2508/7006SCN_coursework_siddesh
 
-Ethical Consideration
+##Ethical Consideration
 
 Crime prediction systems may reflect historical bias. Future work should incorporate fairness-aware machine learning and bias evaluation techniques.
 
-Author
+##Author
 
 Siddesh Gangadharappa
 7006SCN – Machine Learning and Big Data
