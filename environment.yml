@@ -1,1 +1,9 @@
-
+name: chicago_crime_ml
+dependencies:
+  - python=3.10
+  - pyspark
+  - pandas
+  - scikit-learn
+  - numpy
+  - matplotlib
+  - seaborn
