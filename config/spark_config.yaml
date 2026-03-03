@@ -1,0 +1,5 @@
+app_name: ChicagoCrime_BigData_Project
+shuffle_partitions: 400
+adaptive_execution: true
+serializer: org.apache.spark.serializer.KryoSerializer
+environment: Databricks Serverless
